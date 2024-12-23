@@ -5,7 +5,7 @@ from django.shortcuts import render
 
 
 def index_view(request):
-    context = {'name': 'Amir Hossin Golbini Mofrad', }
+    context = {'name': 'امیرحسین گلبینی مفرد', }
 
     return render(request, "website/index.html",context)
 
