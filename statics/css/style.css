@@ -46,15 +46,15 @@ Table of Content:
 /*----------------------------------------------------*/
 @font-face {
     font-family: vazir ;
-    src: url(/fonts/Vazir.eot) ;
-    src: url(/fonts/Vazir.woff) ;
-    src: url(/fonts/Vazir.woff2) ;
+    src: url(../fonts/Vazir.eot) ;
+    src: url(../fonts/Vazir.woff) ;
+    src: url(../fonts/Vazir.woff2) ;
 }
 
 .list {
     list-style: none;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -1472,7 +1472,7 @@ button:focus {
 
 .reservation_form .form-group input::-moz-placeholder {
     font-size: 13px;
-    font-family: vazir
+    font-family: vazir;
     font-weight: 300;
     color: #999999;
 }
